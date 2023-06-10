@@ -42,7 +42,6 @@ if data and 'ips' in data:
             <p class="nota">Atravieso los codigos fuente como<br>un navegante intrepido<br>dejando mi huella en cada bit</p>
         </div>
         <br>
-        <br>
         <div>
             <a class="url" href="https://github.com/garciarodrigue">GITHUB</a>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">

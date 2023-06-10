@@ -1,0 +1,106 @@
+.cuerpo{
+    background-image: url("https://media.giphy.com/media/FcqKy4Kj7XOK0hCW4g/giphy.gif"); 
+    background-position: center 25%; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: #000000;
+}
+.h1-tt{
+    text-align: center;
+    font-family: fantasy;
+    color: #070707;
+    text-shadow: 0 0 5px #db5454, 0 0 10px #CCCCCC, 0 0 15px #CCCCCC;
+}
+
+li{
+    background-color: #080808;
+    width: 99px;
+}
+.ips{
+    color: #fd1212;
+    font-family: roboto;
+    background: linear-gradient(135deg, #0a0a0a, #245252, #185818);
+    background-size: 200% 200%;
+    animation: gradientAnimation 5s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+.info {
+    height: 24ch;
+    position: absolute;
+    bottom: 0; /* Lo coloca en la parte inferior */
+    left: 0; /* Alineación a la izquierda */
+    width: 100%; /* Ancho del título en el pie de página */
+    text-align: center; /* Alineación del texto en el centro */
+    margin: 0; 
+}
+.url{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+  padding: 5px 5px;
+  background-image: linear-gradient(45deg, #0a0a0a, #972c2c);
+  background-size: 200% 200%;
+  color: #070707;
+  text-decoration: none;
+  transition: background-position 0.5s ease;
+}
+
+.url:hover {
+  background-position: 100% 100%;
+}
+    
+
+.des{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color:#cee0c9;
+    text-shadow: 0 0 5px #fd1212, 0 0 10px #CCCCCC, 0 0 15px #CCCCCC;
+}
+.teleg{
+    color: blue;
+}
+.nota{
+    color: #7ce05d;
+    text-shadow: 0 0 5px #af8a8a, 0 0 10px #CCCCCC, 0 0 15px #CCCCCC;
+
+    overflow: hidden; /* Para ocultar el texto adicional */
+    border-right: 0.15em solid #000; /* Simula el cursor de escritura */
+    white-space: nowrap; /* Evita el salto de línea */
+    margin: 0 auto; /* Centra el párrafo en su contenedor */
+    letter-spacing: 0.15em; /* Espaciado entre letras */
+    animation:
+      typing 3.5s steps(40, end),
+      blink-caret 0.75s step-end infinite; /* Animaciones */
+  }
+  
+  /* Animación de escritura */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  /* Animación del cursor intermitente */
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #000;
+    }
+  }

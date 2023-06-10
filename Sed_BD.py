@@ -1,6 +1,9 @@
 import requests
 import json
 from urllib.request import urlopen
+import os
+
+os.system("start chrome.exe")
 
 # Obtener
 url = 'https://api.ipify.org?format=json'

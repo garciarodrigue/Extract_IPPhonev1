@@ -39,7 +39,7 @@ if data and 'ips' in data:
     <div class="info">
         <h3 class="des">By:<sub> T3nshi</h3>
         <div>
-            <p class="nota">Atravieso los codigos fuente como un navegante intrepido<br>dejando mi huella en cada bit  </p>
+            <p class="nota">Atravieso los codigos fuente como<br>un navegante intrepido<br>dejando mi huella en cada bit</p>
         </div>
         <br>
         <br>

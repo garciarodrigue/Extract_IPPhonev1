@@ -30,17 +30,19 @@ if data and 'ips' in data:
             '''
 
     for ip in ips:
-        html_content += f'<li class="ips">{ip}</li>'
+        html_content += f'<li class="ips">{ip}</li><br>'
 
     html_content += '''
         </ul>
         <br>
     </div>
     <div class="info">
-        <h3 class="des">Sed IP</h3>
+        <h3 class="des">By:<sub> T3nshi</h3>
         <div>
-            <p class="nota">Todas las IPs mostradas están en la base de datos.</p>
+            <p class="nota">Atravieso los codigos fuente como un navegante intrepido<br>dejando mi huella en cada bit  </p>
         </div>
+        <br>
+        <br>
         <div>
             <a class="url" href="https://github.com/garciarodrigue">GITHUB</a>
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
